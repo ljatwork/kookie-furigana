@@ -1,0 +1,21 @@
+{
+  "name": "kookie-furigana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/wanakana": "^4.0.6",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "kuromojin": "^3.0.0",
+    "wanakana": "^5.3.1"
+  }
+}
